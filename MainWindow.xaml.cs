@@ -20,7 +20,9 @@ namespace ReportesDane
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Develop
         public MainWindow()
+            
         {
             InitializeComponent();
         }
