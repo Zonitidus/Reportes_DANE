@@ -32,7 +32,7 @@ namespace ReportesDane
             
         {
             InitializeComponent();
-
+            letters.ItemsSource =  "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
         }
 
         private void Open_file_Click(object sender, RoutedEventArgs e)

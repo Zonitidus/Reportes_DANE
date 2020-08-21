@@ -7,7 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\zonif\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\juano\\.nuget\\packages"
+      "C:\\Users\\zonif\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
