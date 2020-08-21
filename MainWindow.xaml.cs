@@ -122,16 +122,16 @@ namespace ReportesDane
             foreach (DataRow dep in dt.Rows)
             {
 
-                String departamento = dep.ItemArray[2].ToString();
+                String region = dep.ItemArray[0].ToString();
 
-                if (cityCount.ContainsKey(departamento))
+                if (cityCount.ContainsKey(region))
                 {
 
-                    cityCount[departamento] = (int)cityCount[departamento] + 1;
+                    cityCount[region] = (int)cityCount[region] + 1;
                 }
                 else
                 {
-                    cityCount.Add(departamento, 1);
+                    cityCount.Add(region, 1);
                 }
             }
 
@@ -155,16 +155,16 @@ namespace ReportesDane
             foreach (DataRow dep in newData.Rows)
             {
 
-                String departamento = dep.ItemArray[2].ToString();
+                String region = dep.ItemArray[0].ToString();
 
-                if (cityCount.ContainsKey(departamento))
+                if (cityCount.ContainsKey(region))
                 {
 
-                    cityCount[departamento] = (int)cityCount[departamento] + 1;
+                    cityCount[region] = (int)cityCount[region] + 1;
                 }
                 else
                 {
-                    cityCount.Add(departamento, 1);
+                    cityCount.Add(region, 1);
                 }
             }
 

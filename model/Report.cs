@@ -72,6 +72,8 @@ namespace ReportesDane.model
 
             List<List<String>> temp = new List<List<string>>();
 
+
+
             while (!reader.EndOfStream) {
 
                 String line = reader.ReadLine();
