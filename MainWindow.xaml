@@ -7,12 +7,16 @@
         mc:Ignorable="d"
         Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen">
     <Grid Cursor="Pen">
-        <Button x:Name="Open_file" Content="Open file" HorizontalAlignment="Left" Margin="30,390,0,0" VerticalAlignment="Top" Click="Open_file_Click"/>
-        <Label x:Name="label" Content="Path:" HorizontalAlignment="Left" Margin="113,387,0,0" VerticalAlignment="Top" Width="660"/>
-        <ScrollViewer x:Name="tableScroll" Margin="30,32,400,98">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Open_file" Content="Open file" HorizontalAlignment="Left" Margin="30,131,0,0" VerticalAlignment="Top" Click="Open_file_Click" Grid.Row="1"/>
+        <Label x:Name="label" Content="Path:" HorizontalAlignment="Left" Margin="113,128,0,0" VerticalAlignment="Top" Width="660" Grid.Row="1"/>
+        <ScrollViewer x:Name="tableScroll" Margin="30,32,400,98" Grid.RowSpan="2">
             <DataGrid x:Name="dataDANE" Height="269" Width="323"/>
         </ScrollViewer>
-        <ScrollViewer x:Name="diagramScroll" Margin="403,32,27,98"/>
+        <ScrollViewer x:Name="diagramScroll" Margin="403,32,27,98" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>
