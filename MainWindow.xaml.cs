@@ -26,6 +26,7 @@ namespace ReportesDane
         //Develop
         OpenFileDialog ofd = new OpenFileDialog();
         Report rep = new Report();
+        DataTable dt;
 
         public MainWindow()
             
@@ -44,7 +45,7 @@ namespace ReportesDane
             {
                 label.Content = ofd.FileName;
 
-                DataTable dt = rep.GetDataTable(ofd.FileName);
+                dt = rep.GetDataTable(ofd.FileName);
 
                 DataView view = new DataView(dt);
 
