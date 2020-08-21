@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ReportesDane.model;
+using System.Data;
 
 namespace ReportesDane
 {
@@ -21,10 +24,34 @@ namespace ReportesDane
     public partial class MainWindow : Window
     {
         //Develop
+        OpenFileDialog ofd = new OpenFileDialog();
+        Report rep = new Report();
+
         public MainWindow()
             
         {
             InitializeComponent();
+
+        }
+
+        private void Open_file_Click(object sender, RoutedEventArgs e)
+        {
+            ofd.Filter = "CSV (*.cvs)|*.csv";
+
+            Nullable<bool> result = ofd.ShowDialog();
+
+            if (result == true)
+            {
+                label.Content = ofd.FileName;
+
+                DataTable dt = rep.GetDataTable(ofd.FileName);
+
+                DataView view = new DataView(dt);
+
+                dataDANE.ItemsSource = view;
+
+            }
+            
         }
     }
 }

@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportesDane"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen">
+    <Grid Cursor="Pen">
+        <Button x:Name="Open_file" Content="Open file" HorizontalAlignment="Left" Margin="30,390,0,0" VerticalAlignment="Top" Click="Open_file_Click"/>
+        <Label x:Name="label" Content="Path:" HorizontalAlignment="Left" Margin="113,387,0,0" VerticalAlignment="Top" Width="660"/>
+        <ScrollViewer x:Name="tableScroll" Margin="30,32,400,98">
+            <DataGrid x:Name="dataDANE" Height="269" Width="323"/>
+        </ScrollViewer>
+        <ScrollViewer x:Name="diagramScroll" Margin="403,32,27,98"/>
 
     </Grid>
 </Window>
