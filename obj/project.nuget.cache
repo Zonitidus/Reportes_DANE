@@ -1,8 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "rJRT2FiQ+R9LcCt8O7+jpT1ktyZrTeuh9gUgDsTu9jRmx3rN2+1e4L/APA+fQXT+ljTlngYNhr5JLGkpG7u+Ww==",
+  "dgSpecHash": "gtKA86lEwDbeTRhxltH6a0dNZwSCrIu1ler1hICfYQIZptfrNLUv2sBlmJNnUmbJI+sgdxCNjl4TpGJYJFWtWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\ReportesDane.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zonif\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\zonif\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"LiveCharts 0.9.7\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"LiveCharts.Wpf 0.9.7\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

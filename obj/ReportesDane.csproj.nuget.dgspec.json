@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj": {}
+    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\ReportesDane.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj": {
+    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\ReportesDane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj",
+        "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\ReportesDane.csproj",
         "projectName": "ReportesDane",
-        "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj",
+        "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\ReportesDane.csproj",
         "packagesPath": "C:\\Users\\zonif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\obj\\",
+        "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\NewReportesDane\\Reportes_DANE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zonif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
