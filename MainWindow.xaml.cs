@@ -74,7 +74,7 @@ namespace ReportesDane
 
         private void letters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (letters.SelectedItem.Equals("-"))
+            if (letters.SelectedItem.ToString().Equals("-"))
             {
                 DataView view = new DataView(dt);
                 dataDANE.ItemsSource = view;

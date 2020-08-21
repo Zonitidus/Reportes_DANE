@@ -16,3 +16,4 @@ C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\Repor
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.dll
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.pdb
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.genruntimeconfig.cache
+C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.csprojAssemblyReference.cache
