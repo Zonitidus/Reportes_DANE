@@ -154,10 +154,8 @@ namespace ReportesDane
 
             foreach (String key in cityCount.Keys)
             {
-
-                ISeriesView series = new PieSeries { Title = key };
                 IChartValues values = new ChartValues<int> { (int)cityCount[key] };
-                series.Values = values;
+                ISeriesView series = new PieSeries { Title = key, DataLabels = true, Values = values };
                 piechartData.Series.Add(series);
             }
 
@@ -202,10 +200,8 @@ namespace ReportesDane
 
             foreach (String key in cityCount.Keys)
             {
-
-                ISeriesView series = new PieSeries { Title = key };
                 IChartValues values = new ChartValues<int> { (int)cityCount[key] };
-                series.Values = values;
+                ISeriesView series = new PieSeries { Title = key, DataLabels = true, Values = values};
                 piechartData.Series.Add(series);
             }
         }
