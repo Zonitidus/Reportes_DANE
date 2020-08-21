@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj": {}
+    "C:\\Users\\juano\\source\\repos\\Reportes_DANE\\ReportesDane.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj": {
+    "C:\\Users\\juano\\source\\repos\\Reportes_DANE\\ReportesDane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj",
+        "projectUniqueName": "C:\\Users\\juano\\source\\repos\\Reportes_DANE\\ReportesDane.csproj",
         "projectName": "ReportesDane",
-        "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\ReportesDane.csproj",
-        "packagesPath": "C:\\Users\\zonif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ReportesDane\\obj\\",
+        "projectPath": "C:\\Users\\juano\\source\\repos\\Reportes_DANE\\ReportesDane.csproj",
+        "packagesPath": "C:\\Users\\juano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juano\\source\\repos\\Reportes_DANE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zonif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
