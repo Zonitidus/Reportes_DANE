@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
       "C:\\Users\\zonif\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\zonif\\.nuget\\packages"
-=======
-      "C:\\Users\\juano\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\juano\\.nuget\\packages"
->>>>>>> featgeneratetable
     ]
   }
 }

@@ -69,5 +69,10 @@ namespace ReportesDane
             }
             return dv;
         }
+
+        private void letters_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
