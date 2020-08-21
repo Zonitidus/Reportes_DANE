@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportesDane"
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen">
     <Grid Cursor="Pen">
         <Grid.RowDefinitions>
@@ -20,4 +21,8 @@
         <ComboBox x:Name="letters" HorizontalAlignment="Left" Margin="113,82,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" SelectionChanged="letters_SelectionChanged"/>
 
     </Grid>
+=======
+        Title="MainWindow" Height="450" Width="800">
+    <Grid/>
+>>>>>>> featgeneratetable
 </Window>

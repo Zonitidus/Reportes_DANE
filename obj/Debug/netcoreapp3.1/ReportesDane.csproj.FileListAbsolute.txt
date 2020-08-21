@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\bin\Debug\netcoreapp3.1\ReportesDane.exe
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\bin\Debug\netcoreapp3.1\ReportesDane.deps.json
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\bin\Debug\netcoreapp3.1\ReportesDane.runtimeconfig.json
@@ -17,3 +18,24 @@ C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\Repor
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.dll
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.pdb
 C:\Users\zonif\OneDrive\Escritorio\Work\QuintoSemestre\Integrador\Talleres\ReportesDane\obj\Debug\netcoreapp3.1\ReportesDane.genruntimeconfig.cache
+=======
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.exe
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.deps.json
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.runtimeconfig.json
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.runtimeconfig.dev.json
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.dll
+C:\Users\juano\source\repos\Reportes_DANE\bin\Debug\netcoreapp3.1\ReportesDane.pdb
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.csprojAssemblyReference.cache
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane_MarkupCompile.cache
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane_MarkupCompile.lref
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.g.resources
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.AssemblyInfoInputs.cache
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.AssemblyInfo.cs
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.csproj.CoreCompileInputs.cache
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.dll
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.pdb
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.genruntimeconfig.cache
+>>>>>>> featgeneratetable

@@ -54,5 +54,20 @@ namespace ReportesDane
             }
             
         }
+
+        private DataTable Filter(DataTable dt, string comboBoxValue)
+        {
+            DataTable dv = dt;
+            for (int i = dv.Rows.Count - 1; i >= 0; i--)
+            {
+                string cellValue = dv.Rows[i].Field<string>(2);
+                if (!cellValue[0].Equals(char.Parse(comboBoxValue)))
+                {
+                    dv.Rows[i].Delete();
+                }
+                dv.AcceptChanges();
+            }
+            return dv;
+        }
     }
 }
