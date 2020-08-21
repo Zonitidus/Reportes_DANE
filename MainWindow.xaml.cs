@@ -27,12 +27,13 @@ namespace ReportesDane
         OpenFileDialog ofd = new OpenFileDialog();
         Report rep = new Report();
         DataTable dt;
+        String selectedPath;
 
         public MainWindow()
             
         {
             InitializeComponent();
-            letters.ItemsSource =  "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            letters.ItemsSource =  "-ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
         }
 
         private void Open_file_Click(object sender, RoutedEventArgs e)
@@ -44,6 +45,7 @@ namespace ReportesDane
             if (result == true)
             {
                 label.Content = ofd.FileName;
+                selectedPath = ofd.FileName;
 
                 dt = rep.GetDataTable(ofd.FileName);
 
@@ -55,9 +57,9 @@ namespace ReportesDane
             
         }
 
-        private DataTable Filter(DataTable dt, string comboBoxValue)
+        private DataTable Filter(string comboBoxValue)
         {
-            DataTable dv = dt;
+            DataTable dv = dt.Copy();
             for (int i = dv.Rows.Count - 1; i >= 0; i--)
             {
                 string cellValue = dv.Rows[i].Field<string>(2);
@@ -72,6 +74,19 @@ namespace ReportesDane
 
         private void letters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (letters.SelectedItem.Equals("-"))
+            {
+                DataView view = new DataView(dt);
+                dataDANE.ItemsSource = view;
+            }
+            else {
+
+                DataTable tempTable = Filter(letters.SelectedItem.ToString());
+                Console.WriteLine(letters.SelectedItem.ToString());
+                DataView view = new DataView(tempTable);
+                dataDANE.ItemsSource = view;
+
+            }
 
         }
     }
