@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportesDane" xmlns:Wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen">
+        Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen" Icon="/icon.png">
     <Grid Cursor="Pen">
         <Grid.RowDefinitions>
             <RowDefinition Height="37*"/>

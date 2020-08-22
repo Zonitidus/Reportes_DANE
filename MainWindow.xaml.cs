@@ -38,6 +38,9 @@ namespace ReportesDane
         {
             InitializeComponent();
             letters.ItemsSource =  "-ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            //Uri iconUri = new Uri("icon/icon.png", UriKind.RelativeOrAbsolute);
+            //this.Icon = BitmapFrame.Create(iconUri);
+            //this.Icon = Properties.Resources.icon3;
         }
 
         private void Open_file_Click(object sender, RoutedEventArgs e)
@@ -59,8 +62,8 @@ namespace ReportesDane
 
                 initChart();
             }
-            
-            
+           
+
         }
 
         private DataTable Filter(string comboBoxValue)

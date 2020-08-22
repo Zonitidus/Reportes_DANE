@@ -61,3 +61,5 @@ C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.c
 C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.dll
 C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.pdb
 C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.genruntimeconfig.cache
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.Properties.Resources.resources
+C:\Users\juano\source\repos\Reportes_DANE\obj\Debug\netcoreapp3.1\ReportesDane.csproj.GenerateResource.cache
