@@ -52,13 +52,14 @@ namespace ReportesDane
             if (result == true)
             {
                 label.Content = ofd.FileName;
-                selectedPath = ofd.FileName;
+                selectedPath = ofd.FileName;  //que hace esto?
 
                 dt = rep.GetDataTable(ofd.FileName);
 
                 DataView view = new DataView(dt);
 
                 dataDANE.ItemsSource = view;
+                
 
                 initChart();
             }
@@ -190,7 +191,7 @@ namespace ReportesDane
                 if (cityCount.ContainsKey(region))
                 {
 
-                    cityCount[region] = (int)cityCount[region] + 1;
+                    cityCount[region] = (int)cityCount[region] + 1; //Aca es donde suma el numero de ciudades de esa region? porque tiene un valor int?
                 }
                 else
                 {

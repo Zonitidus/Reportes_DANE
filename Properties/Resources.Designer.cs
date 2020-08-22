@@ -83,19 +83,9 @@ namespace ReportesDane.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] icon2 {
+        internal static byte[] Icon3 {
             get {
-                object obj = ResourceManager.GetObject("icon2", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] icon3 {
-            get {
-                object obj = ResourceManager.GetObject("icon3", resourceCulture);
+                object obj = ResourceManager.GetObject("Icon3", resourceCulture);
                 return ((byte[])(obj));
             }
         }
