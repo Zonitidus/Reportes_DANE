@@ -122,7 +122,7 @@ namespace ReportesDane
 
             Hashtable cityCount = new Hashtable();
             
-            for (int i = 1; i<dt.Rows.Count; i++) 
+            for (int i = 0; i<dt.Rows.Count; i++) 
             {
                 String region = dt.Rows[i].ItemArray[0].ToString();
                 if (cityCount.ContainsKey(region))
@@ -167,7 +167,7 @@ namespace ReportesDane
         public void updateChart(DataTable newData) {
 
             Hashtable cityCount = new Hashtable();
-
+            /*
             for (int i = 1; i < newData.Rows.Count; i++)
             {
                 String region = newData.Rows[i].ItemArray[0].ToString();
@@ -180,8 +180,8 @@ namespace ReportesDane
                     cityCount.Add(region, 1);
                 }
             }
-
-            /*
+            */
+            
             foreach (DataRow dep in newData.Rows)
             {
 
@@ -197,7 +197,7 @@ namespace ReportesDane
                     cityCount.Add(region, 1);
                 }
             }
-            */
+            
 
             piechartData.Series.Clear();
 

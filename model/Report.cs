@@ -76,17 +76,18 @@ namespace ReportesDane.model
 
             while (!reader.EndOfStream) {
 
-                String line = reader.ReadLine();
+                String line = reader.ReadLine();  //
+                
                 String[] dataItem = line.Split(",");
-
-                List<String> item = new List<string>();
-                for (int i = 0; i < dataItem.Length; i++) {
-                    item.Add(dataItem[i]);
-                }
-
-                temp.Add(item);
+                if (!dataItem[0].Equals("REGION")) {
+                    List<String> item = new List<string>();
+                    for (int i = 0; i < dataItem.Length; i++)
+                    {
+                        item.Add(dataItem[i]);
+                    }
+                    temp.Add(item);
+                }               
             }
-
             return temp;
         }
     }
