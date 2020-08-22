@@ -23,12 +23,12 @@ namespace ReportesDane.model
             DataRow row;
 
             column = new DataColumn();
-            column.DataType = System.Type.GetType("System.String");//Que hace esto? Stea los valores que va a almacnar la columna
+            column.DataType = System.Type.GetType("System.String");
             column.ColumnName = "Region";
             dt.Columns.Add(column);
 
             column = new DataColumn();
-            column.DataType = Type.GetType("System.String");//Porque aqui no se usa system?
+            column.DataType = Type.GetType("System.String");
             column.ColumnName = "Codigo Departamento";
             dt.Columns.Add(column);
 
@@ -52,7 +52,7 @@ namespace ReportesDane.model
 
                 row = dt.NewRow();
 
-                row["Region"] = data[i][0];//Asi se accede a las listas en c#? suponiendo que fuera una lista de listas de listas de string seria data[][][]?
+                row["Region"] = data[i][0];
                 row["Codigo Departamento"] = data[i][1];
                 row["Departamento"] = data[i][2];
                 row["Codigo Municipio"] = data[i][3];
@@ -76,7 +76,7 @@ namespace ReportesDane.model
 
             while (!reader.EndOfStream) {
 
-                String line = reader.ReadLine();  //
+                String line = reader.ReadLine();
                 
                 String[] dataItem = line.Split(",");
                 if (!dataItem[0].Equals("REGION")) {

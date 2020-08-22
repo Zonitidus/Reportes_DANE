@@ -31,16 +31,13 @@ namespace ReportesDane
         OpenFileDialog ofd = new OpenFileDialog();
         Report rep = new Report();
         DataTable dt;
-        String selectedPath;
+       
 
         public MainWindow()
             
         {
             InitializeComponent();
             letters.ItemsSource =  "-ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            //Uri iconUri = new Uri("icon/icon.png", UriKind.RelativeOrAbsolute);
-            //this.Icon = BitmapFrame.Create(iconUri);
-            //this.Icon = Properties.Resources.icon3;
         }
 
         private void Open_file_Click(object sender, RoutedEventArgs e)
@@ -52,7 +49,7 @@ namespace ReportesDane
             if (result == true)
             {
                 label.Content = ofd.FileName;
-                selectedPath = ofd.FileName;  //que hace esto?
+                
 
                 dt = rep.GetDataTable(ofd.FileName);
 
@@ -109,7 +106,7 @@ namespace ReportesDane
             }
             else
             {
-                MessageBox.Show("Master, primero rotate la data. Todo bn.");
+                MessageBox.Show("Por favor seleccione un archivo");
 
             }
 
@@ -135,25 +132,6 @@ namespace ReportesDane
                     cityCount.Add(region, 1);
                 }
             }
-            
-            /*
-            foreach (DataRow dep in dt.Rows)
-            {
-
-                String region = dep.ItemArray[0].ToString();
-
-                if (cityCount.ContainsKey(region))
-                {
-
-                    cityCount[region] = (int)cityCount[region] + 1;
-                }
-                else
-                {
-                    cityCount.Add(region, 1);
-                }
-            }
-            */
-
             piechartData.Series.Clear();
 
             foreach (String key in cityCount.Keys)
@@ -168,21 +146,7 @@ namespace ReportesDane
         public void updateChart(DataTable newData) {
 
             Hashtable cityCount = new Hashtable();
-            /*
-            for (int i = 1; i < newData.Rows.Count; i++)
-            {
-                String region = newData.Rows[i].ItemArray[0].ToString();
-                if (cityCount.ContainsKey(region))
-                {
-                    cityCount[region] = (int)cityCount[region] + 1;
-                }
-                else
-                {
-                    cityCount.Add(region, 1);
-                }
-            }
-            */
-            
+           
             foreach (DataRow dep in newData.Rows)
             {
 
@@ -191,7 +155,7 @@ namespace ReportesDane
                 if (cityCount.ContainsKey(region))
                 {
 
-                    cityCount[region] = (int)cityCount[region] + 1; //Aca es donde suma el numero de ciudades de esa region? porque tiene un valor int?
+                    cityCount[region] = (int)cityCount[region] + 1; 
                 }
                 else
                 {
