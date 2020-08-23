@@ -3,10 +3,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ReportesDane"
+        xmlns:local="clr-namespace:ReportesDane" xmlns:Wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="DANE" Height="450" Width="800" ResizeMode="NoResize" Cursor="Pen" Icon="/icon2.png">
+    <Grid Cursor="Pen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Open_file" Content="Open file" HorizontalAlignment="Left" Margin="30,131,0,0" VerticalAlignment="Top" Click="Open_file_Click" Grid.Row="1"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="113,128,0,0" VerticalAlignment="Top" Width="660" Grid.Row="1"/>
+        <ScrollViewer x:Name="tableScroll" Margin="30,32,400,98" Grid.RowSpan="2">
+            <DataGrid x:Name="dataDANE" Height="269" Width="323"/>
+        </ScrollViewer>
+        <ScrollViewer x:Name="diagramScroll" Margin="403,32,27,98" Grid.RowSpan="2">
+            <Wpf:PieChart x:Name="piechartData" LegendLocation="Bottom" Hoverable="False" DataTooltip="{x:Null}" Loaded="piechartData_Loaded">
+            </Wpf:PieChart>
+        </ScrollViewer>
+        <ComboBox x:Name="letters" HorizontalAlignment="Left" Margin="113,82,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" SelectionChanged="letters_SelectionChanged"/>
 
     </Grid>
+
 </Window>

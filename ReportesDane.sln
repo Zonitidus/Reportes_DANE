@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportesDane", "ReportesDane.csproj", "{134EA9FE-AA6D-4514-989E-25CE73BFD28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportesDane", "ReportesDane.csproj", "{134EA9FE-AA6D-4514-989E-25CE73BFD28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "..\Resources\Resources.csproj", "{CD1A6225-4A05-46E9-9294-D21AABC6D76F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{134EA9FE-AA6D-4514-989E-25CE73BFD28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134EA9FE-AA6D-4514-989E-25CE73BFD28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{134EA9FE-AA6D-4514-989E-25CE73BFD28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1A6225-4A05-46E9-9294-D21AABC6D76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1A6225-4A05-46E9-9294-D21AABC6D76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1A6225-4A05-46E9-9294-D21AABC6D76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1A6225-4A05-46E9-9294-D21AABC6D76F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
