@@ -31,7 +31,7 @@ namespace ReportesDane
         OpenFileDialog ofd = new OpenFileDialog();
         Report rep = new Report();
         DataTable dt;
-        String selectedPath;
+       
 
         public MainWindow()
             
@@ -49,18 +49,19 @@ namespace ReportesDane
             if (result == true)
             {
                 label.Content = ofd.FileName;
-                selectedPath = ofd.FileName;
+                
 
                 dt = rep.GetDataTable(ofd.FileName);
 
                 DataView view = new DataView(dt);
 
                 dataDANE.ItemsSource = view;
+                
 
                 initChart();
             }
-            
-            
+           
+
         }
 
         private DataTable Filter(string comboBoxValue)
@@ -105,7 +106,7 @@ namespace ReportesDane
             }
             else
             {
-                MessageBox.Show("Master, primero rotate la data. Todo bn.");
+                MessageBox.Show("Por favor seleccione un archivo");
 
             }
 
@@ -118,15 +119,12 @@ namespace ReportesDane
         public void initChart() {
 
             Hashtable cityCount = new Hashtable();
-
-            foreach (DataRow dep in dt.Rows)
+            
+            for (int i = 0; i<dt.Rows.Count; i++) 
             {
-
-                String region = dep.ItemArray[0].ToString();
-
+                String region = dt.Rows[i].ItemArray[0].ToString();
                 if (cityCount.ContainsKey(region))
                 {
-
                     cityCount[region] = (int)cityCount[region] + 1;
                 }
                 else
@@ -134,15 +132,12 @@ namespace ReportesDane
                     cityCount.Add(region, 1);
                 }
             }
-
             piechartData.Series.Clear();
 
             foreach (String key in cityCount.Keys)
             {
-
-                ISeriesView series = new PieSeries { Title = key };
                 IChartValues values = new ChartValues<int> { (int)cityCount[key] };
-                series.Values = values;
+                ISeriesView series = new PieSeries { Title = key, DataLabels = true, Values = values };
                 piechartData.Series.Add(series);
             }
 
@@ -151,7 +146,7 @@ namespace ReportesDane
         public void updateChart(DataTable newData) {
 
             Hashtable cityCount = new Hashtable();
-
+           
             foreach (DataRow dep in newData.Rows)
             {
 
@@ -160,22 +155,21 @@ namespace ReportesDane
                 if (cityCount.ContainsKey(region))
                 {
 
-                    cityCount[region] = (int)cityCount[region] + 1;
+                    cityCount[region] = (int)cityCount[region] + 1; 
                 }
                 else
                 {
                     cityCount.Add(region, 1);
                 }
             }
+            
 
             piechartData.Series.Clear();
 
             foreach (String key in cityCount.Keys)
             {
-
-                ISeriesView series = new PieSeries { Title = key };
                 IChartValues values = new ChartValues<int> { (int)cityCount[key] };
-                series.Values = values;
+                ISeriesView series = new PieSeries { Title = key, DataLabels = true, Values = values};
                 piechartData.Series.Add(series);
             }
         }
