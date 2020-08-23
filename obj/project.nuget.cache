@@ -1,24 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "UV7PEkvIJSxJW66n0oP7+hzAkqPuaWuaG2QTUI6Pj0iX/hVOYMNGv+mUcJpvleSUjckR1i1hhmVMxr7/1SN6+g==",
+  "dgSpecHash": "Q2c7trgLViHduzathv/kqPYh0wYNs7iDNB8KVQqZKD8/+m0COREyBpi+KToB0bHaqABSaNWo7y7AtfhoL8a/Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
+  "projectFilePath": "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\ReportesDane.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zonif\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\zonif\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\juano\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\juano\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"LiveCharts 0.9.7\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "LiveCharts",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -28,7 +22,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"LiveCharts.Wpf 0.9.7\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "LiveCharts.Wpf",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

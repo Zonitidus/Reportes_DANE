@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj": {}
+    "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\ReportesDane.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj": {
+    "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\ReportesDane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
+        "projectUniqueName": "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\ReportesDane.csproj",
         "projectName": "ReportesDane",
-        "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
-        "packagesPath": "C:\\Users\\zonif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\obj\\",
+        "projectPath": "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\ReportesDane.csproj",
+        "packagesPath": "C:\\Users\\juano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juano\\Desktop\\PruebaGitFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zonif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -19,6 +19,7 @@ using LiveCharts;
 using LiveCharts.Definitions.Series;
 using LiveCharts.Wpf;
 using System.Collections;
+using System.Media;
 
 namespace ReportesDane
 {
@@ -38,6 +39,7 @@ namespace ReportesDane
         {
             InitializeComponent();
             letters.ItemsSource =  "-ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            startMusic();
         }
 
         private void Open_file_Click(object sender, RoutedEventArgs e)
@@ -172,6 +174,12 @@ namespace ReportesDane
                 ISeriesView series = new PieSeries { Title = key, DataLabels = true, Values = values};
                 piechartData.Series.Add(series);
             }
+        }
+        private void startMusic()
+        {
+            SoundPlayer player = new SoundPlayer(Properties.Resources.beathome);
+            //player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "\\sound.wav" + Properties.Resources.sound1;
+            player.PlayLooping();
         }
     }
 }

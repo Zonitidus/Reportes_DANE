@@ -32,10 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="icon.png" />
     <Resource Include="icon2.png" />
     <Resource Include="icon3.bmp" />
