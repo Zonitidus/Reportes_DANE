@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "49NEB0dktEr9oAs3uvebJxya4FRRE3AcXIleHJn5OiJxisUNzYjezOZJcNwZivWAarzFsniiWKcDrto4HVTelw==",
+  "dgSpecHash": "UV7PEkvIJSxJW66n0oP7+hzAkqPuaWuaG2QTUI6Pj0iX/hVOYMNGv+mUcJpvleSUjckR1i1hhmVMxr7/1SN6+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Reportes_DANE-feat-corrections\\ReportesDane.csproj",
+  "projectFilePath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zonif\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\zonif\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"

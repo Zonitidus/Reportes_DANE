@@ -78,11 +78,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Reportes_DANE-feat-corrections\\ReportesDane.csproj",
+      "projectUniqueName": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
       "projectName": "ReportesDane",
-      "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Reportes_DANE-feat-corrections\\ReportesDane.csproj",
+      "projectPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\ReportesDane.csproj",
       "packagesPath": "C:\\Users\\zonif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Reportes_DANE-feat-corrections\\obj\\",
+      "outputPath": "C:\\Users\\zonif\\OneDrive\\Escritorio\\Work\\QuintoSemestre\\Integrador\\Talleres\\ep\\Reportes_DANE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zonif\\AppData\\Roaming\\NuGet\\NuGet.Config",
